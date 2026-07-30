@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Политика конфиденциальности — Знаток-молоток</title>
+<link rel="icon" href="assets/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b1120; --bg-panel:#121a2c; --ink:#eaf1f7; --ink-muted:#93a4be;
+    --line:rgba(234,241,247,0.09); --go:#4ea8de; --go-soft:rgba(78,168,222,0.12);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--bg); color:var(--ink); font-family:'Manrope',system-ui,sans-serif; line-height:1.65;}
+  h1,h2{font-family:'Space Grotesk',sans-serif; letter-spacing:-0.01em;}
+  a{color:var(--go);}
+  header.site{border-bottom:1px solid var(--line); padding:18px 24px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; background:rgba(11,17,32,0.85); backdrop-filter:blur(8px);}
+  .brand{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--ink); font-weight:700;}
+  .brand img{width:30px; height:30px; border-radius:8px;}
+  .back{color:var(--ink-muted); text-decoration:none; font-size:0.9rem;}
+  .lang-switch{display:flex; border:1px solid var(--line); border-radius:999px; overflow:hidden; font-family:'JetBrains Mono',monospace; font-size:0.78rem;}
+  .lang-switch button{background:transparent; border:0; color:var(--ink-muted); padding:6px 12px; cursor:pointer; font-family:inherit; font-size:inherit;}
+  .lang-switch button.active{background:var(--go); color:#04121d; font-weight:600;}
+  main{max-width:760px; margin:0 auto; padding:64px 24px 96px;}
+  .updated{color:var(--ink-muted); font-size:0.85rem; margin-bottom:40px; font-family:'JetBrains Mono',monospace;}
+  section{margin-bottom:34px;}
+  section h2{font-size:1.25rem; margin-bottom:12px;}
+  section p, section li{color:var(--ink-muted); font-size:0.98rem;}
+  section ul{padding-left:20px;}
+  section li{margin-bottom:8px;}
+  .box{background:var(--bg-panel); border:1px solid var(--line); border-radius:14px; padding:22px 26px;}
+  footer{border-top:1px solid var(--line); padding:28px 24px; color:var(--ink-muted); font-size:0.85rem; text-align:center;}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <a href="index.html" class="brand"><img src="assets/logo.png" alt="Знаток-молоток"><span data-i18n="brand">Знаток-молоток</span></a>
+  <div style="display:flex; align-items:center; gap:16px;">
+    <a href="index.html" class="back" data-i18n="back">← на главную</a>
+    <div class="lang-switch">
+      <button type="button" data-lang-btn="ru" class="active">RU</button>
+      <button type="button" data-lang-btn="en">EN</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <h1 data-i18n="h1">Политика конфиденциальности</h1>
+  <div class="updated" data-i18n="updated">// действует с 30 июля 2026 г.</div>
+
+  <section>
+    <p data-i18n="intro">Настоящая политика описывает, какие данные может обрабатывать сайт проекта «Знаток-молоток» (онлайн-уроки программирования), и как эти данные используются.</p>
+  </section>
+
+  <section>
+    <h2 data-i18n="h2_1">1. Кто обрабатывает данные</h2>
+    <p data-i18n="p1_1">Сайт и обучение ведёт физическое лицо, зарегистрированное в качестве самозанятого (плательщика налога на профессиональный доход) на территории РФ. Отдельного юридического лица нет.</p>
+  </section>
+
+  <section>
+    <h2 data-i18n="h2_2">2. Какие данные могут собираться</h2>
+    <div class="box">
+      <ul>
+        <li data-i18n="p2_li1">Технические данные о посещении сайта: тип устройства и браузера, приблизительная геолокация по IP, страницы, которые вы просматривали, источник перехода.</li>
+        <li data-i18n="p2_li2">Данные, которые вы сообщаете сами при обращении через Telegram, VK или WhatsApp: имя, контактные данные, содержание сообщения.</li>
+        <li data-i18n="p2_li3">Данные, обрабатываемые платёжным сервисом при оплате занятий (реквизиты карты сайт не видит и не хранит — их обрабатывает платёжная система).</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2 data-i18n="h2_3">3. Аналитика и счётчики</h2>
+    <p data-i18n="p3_1">На момент публикации сайт не подключил счётчики аналитики. В дальнейшем на сайте могут быть использованы:</p>
+    <ul>
+      <li data-i18n="p3_li1">Яндекс.Метрика;</li>
+      <li data-i18n="p3_li2">Google Analytics;</li>
+      <li data-i18n="p3_li3">собственные средства учёта посещаемости.</li>
+    </ul>
+    <p data-i18n="p3_2">Эти инструменты используют файлы cookie и собирают обезличенную статистику посещений: какие страницы просматривались, как долго, с какого устройства и из какого региона. Эта информация используется только для понимания того, как улучшить сайт, и не используется для принятия решений о конкретном человеке.</p>
+  </section>
+
+  <section>
+    <h2 data-i18n="h2_4">4. Как используются данные</h2>
+    <ul>
+      <li data-i18n="p4_li1">Чтобы ответить на обращение и организовать занятия;</li>
+      <li data-i18n="p4_li2">Чтобы понять, какие разделы сайта востребованы, и улучшить его содержание;</li>
+      <li data-i18n="p4_li3">Для выполнения требований платёжного сервиса при онлайн-оплате.</li>
+    </ul>
+    <p data-i18n="p4_p">Данные не продаются и не передаются третьим лицам для рекламных целей.</p>
+  </section>
+
+  <section>
+    <h2 data-i18n="h2_5">5. Дети и занятия для детей</h2>
+    <p data-i18n="p5_1">Часть программ рассчитана на детей 9–12 лет. Запись на занятия и переписка об организации обучения ведётся с родителем или другим законным представителем ребёнка; предполагается, что именно взрослый инициирует и согласовывает обучение.</p>
+  </section>
+
+  <section>
+    <h2 data-i18n="h2_6">6. Хранение и удаление данных</h2>
+    <p data-i18n="p6_1">Переписка в мессенджерах хранится столько, сколько это нужно для организации занятий и ведения истории по ученику. Вы можете в любой момент попросить удалить свои контактные данные, написав в Telegram или VK.</p>
+  </section>
+
+  <section>
+    <h2 data-i18n="h2_7">7. Контакты по вопросам конфиденциальности</h2>
+    <p data-i18n="p7_1">По всем вопросам, связанным с этой политикой и вашими данными, пишите через Telegram или VK — ссылки указаны на главной странице сайта.</p>
+  </section>
+
+  <section>
+    <h2 data-i18n="h2_8">8. Изменения политики</h2>
+    <p data-i18n="p8_1">Политика может обновляться по мере развития сайта — например, при подключении аналитики. Актуальная версия всегда доступна на этой странице.</p>
+  </section>
+</main>
+
+<footer>
+  <span data-i18n="footer">© 2026 Знаток-молоток · самозанятый</span>
+</footer>
+
+<script>
+const dict = {
+  ru: {
+    brand:"Знаток-молоток", back:"← на главную",
+    h1:"Политика конфиденциальности",
+    updated:"// действует с 30 июля 2026 г.",
+    intro:"Настоящая политика описывает, какие данные может обрабатывать сайт проекта «Знаток-молоток» (онлайн-уроки программирования), и как эти данные используются.",
+    h2_1:"1. Кто обрабатывает данные",
+    p1_1:"Сайт и обучение ведёт физическое лицо, зарегистрированное в качестве самозанятого (плательщика налога на профессиональный доход) на территории РФ. Отдельного юридического лица нет.",
+    h2_2:"2. Какие данные могут собираться",
+    p2_li1:"Технические данные о посещении сайта: тип устройства и браузера, приблизительная геолокация по IP, страницы, которые вы просматривали, источник перехода.",
+    p2_li2:"Данные, которые вы сообщаете сами при обращении через Telegram, VK или WhatsApp: имя, контактные данные, содержание сообщения.",
+    p2_li3:"Данные, обрабатываемые платёжным сервисом при оплате занятий (реквизиты карты сайт не видит и не хранит — их обрабатывает платёжная система).",
+    h2_3:"3. Аналитика и счётчики",
+    p3_1:"На момент публикации сайт не подключил счётчики аналитики. В дальнейшем на сайте могут быть использованы:",
+    p3_li1:"Яндекс.Метрика;", p3_li2:"Google Analytics;", p3_li3:"собственные средства учёта посещаемости.",
+    p3_2:"Эти инструменты используют файлы cookie и собирают обезличенную статистику посещений: какие страницы просматривались, как долго, с какого устройства и из какого региона. Эта информация используется только для понимания того, как улучшить сайт, и не используется для принятия решений о конкретном человеке.",
+    h2_4:"4. Как используются данные",
+    p4_li1:"Чтобы ответить на обращение и организовать занятия;",
+    p4_li2:"Чтобы понять, какие разделы сайта востребованы, и улучшить его содержание;",
+    p4_li3:"Для выполнения требований платёжного сервиса при онлайн-оплате.",
+    p4_p:"Данные не продаются и не передаются третьим лицам для рекламных целей.",
+    h2_5:"5. Дети и занятия для детей",
+    p5_1:"Часть программ рассчитана на детей 9–12 лет. Запись на занятия и переписка об организации обучения ведётся с родителем или другим законным представителем ребёнка; предполагается, что именно взрослый инициирует и согласовывает обучение.",
+    h2_6:"6. Хранение и удаление данных",
+    p6_1:"Переписка в мессенджерах хранится столько, сколько это нужно для организации занятий и ведения истории по ученику. Вы можете в любой момент попросить удалить свои контактные данные, написав в Telegram или VK.",
+    h2_7:"7. Контакты по вопросам конфиденциальности",
+    p7_1:"По всем вопросам, связанным с этой политикой и вашими данными, пишите через Telegram или VK — ссылки указаны на главной странице сайта.",
+    h2_8:"8. Изменения политики",
+    p8_1:"Политика может обновляться по мере развития сайта — например, при подключении аналитики. Актуальная версия всегда доступна на этой странице.",
+    footer:"© 2026 Знаток-молоток · самозанятый"
+  },
+  en: {
+    brand:"Znatok-Molotok", back:"← back to home",
+    h1:"Privacy Policy",
+    updated:"// effective July 30, 2026",
+    intro:"This policy explains what data the Znatok-Molotok website (online programming lessons) may process, and how that data is used. Note: lessons themselves are conducted in Russian.",
+    h2_1:"1. Who processes the data",
+    p1_1:"The site and the lessons are run by an individual registered as self-employed (a payer of professional income tax) in Russia. There is no separate legal entity.",
+    h2_2:"2. What data may be collected",
+    p2_li1:"Technical data about your visit: device and browser type, approximate location based on IP address, pages viewed, referral source.",
+    p2_li2:"Data you share yourself when reaching out via Telegram, VK, or WhatsApp: name, contact details, message content.",
+    p2_li3:"Data processed by the payment provider when you pay for lessons (card details are never seen or stored by this site — they are processed by the payment system).",
+    h2_3:"3. Analytics",
+    p3_1:"As of publication, the site has not enabled any analytics tools. Going forward, the site may use:",
+    p3_li1:"Yandex.Metrica;", p3_li2:"Google Analytics;", p3_li3:"its own visit-tracking tools.",
+    p3_2:"These tools use cookies and collect anonymised visit statistics: which pages were viewed, for how long, from which device and region. This information is used only to understand how to improve the site, and is not used to make decisions about any specific person.",
+    h2_4:"4. How the data is used",
+    p4_li1:"To respond to inquiries and organise lessons;",
+    p4_li2:"To understand which parts of the site are useful, and improve its content;",
+    p4_li3:"To meet the payment provider's requirements when processing online payments.",
+    p4_p:"Data is not sold or shared with third parties for advertising purposes.",
+    h2_5:"5. Classes for children",
+    p5_1:"Some programs are designed for children aged 9–12. Enrolment and any correspondence about organising lessons is conducted with a parent or other legal guardian; it is assumed that the adult initiates and agrees to the lessons.",
+    h2_6:"6. Data storage and deletion",
+    p6_1:"Messenger correspondence is kept for as long as needed to organise lessons and keep a record of a student's progress. You may ask to have your contact details deleted at any time by writing via Telegram or VK.",
+    h2_7:"7. Privacy contact",
+    p7_1:"For any questions about this policy or your data, please write via Telegram or VK — links are on the site's home page.",
+    h2_8:"8. Changes to this policy",
+    p8_1:"This policy may be updated as the site develops — for example, if analytics tools are enabled. The current version is always available on this page.",
+    footer:"© 2026 Znatok-Molotok · self-employed"
+  }
+};
+
+function applyLang(lang){
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-i18n]').forEach(el=>{
+    const key = el.getAttribute('data-i18n');
+    if(dict[lang][key] !== undefined) el.textContent = dict[lang][key];
+  });
+  document.querySelectorAll('[data-lang-btn]').forEach(b=>{
+    b.classList.toggle('active', b.getAttribute('data-lang-btn')===lang);
+  });
+}
+document.querySelectorAll('[data-lang-btn]').forEach(btn=>{
+  btn.addEventListener('click', ()=> applyLang(btn.getAttribute('data-lang-btn')));
+});
+applyLang('ru');
+</script>
+
+</body>
+</html>
